@@ -100,11 +100,18 @@
   text-align: justify;
 }
 
+/* Coisas para tablet e notebook menor */
 @media screen and (max-width: 768px) {
   .movieModal {
     width: 550px;
   }
+  .containerMisc {
+    padding-top: 0;
+  }
 }
+
+
+/* Coisas para celular */
 
 @media screen and (max-width: 430px) {
   .movieModal {
@@ -114,7 +121,10 @@
   .movieInfo img {
     height: 220px;
   }
-  
+  .containerMisc {
+    padding-top: 3em;
+  }
+
   .desc {
     padding-bottom: 3.5em;
   }
